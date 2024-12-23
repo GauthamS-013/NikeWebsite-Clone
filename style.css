@@ -1,0 +1,314 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.smallNav {
+  background-color: rgb(238, 238, 238);
+}
+.smallNav > img {
+  height: 20px;
+}
+.smallNavLinks > a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.78em;
+  transition: color 200ms;
+}
+.smallNavLinks > a:hover {
+  color: rgb(173, 173, 173);
+}
+.container-fluid > img {
+  height: 35px;
+  position: relative;
+  right: 15px;
+}
+.nav-link {
+  color: black;
+  font-size: 16px;
+  font-weight: 650;
+  transition: text-decoration 200ms;
+  transition: text-decoration-thickness 200ms;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+.navIcon {
+  font-size: 22px;
+  transition: color 200ms;
+}
+.navIcon:hover {
+  cursor: pointer;
+  color: rgb(155, 155, 155);
+}
+.srch {
+  width: 160px;
+}
+.srch > button {
+  font-size: 18px;
+  background-color: rgb(238, 238, 238);
+  position: relative;
+  z-index: 1;
+  transition: background-color 200ms;
+}
+.srch > input {
+  background-color: rgb(238, 238, 238);
+  position: relative;
+  right: 12px;
+  transition: background-color 200ms;
+}
+.srch > button:hover {
+  background-color: rgb(204, 204, 204);
+}
+.srch > input:hover {
+  background-color: rgb(204, 204, 204);
+}
+.srch > .form-control:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: rgb(238, 238, 238);
+}
+.navRight {
+  width: 300px;
+}
+.navRight > i {
+  font-size: 22px;
+  transition: color 200ms;
+}
+.navRight > i:hover {
+  cursor: pointer;
+  color: rgb(155, 155, 155);
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:hover {
+  background-color: rgb(204, 204, 204);
+  cursor: pointer;
+  border-radius: 20%;
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.textHero {
+  background-color: rgb(238, 238, 238);
+}
+#textHeroDiv > h6 {
+  font-size: 17px;
+}
+#textHeroDiv > a {
+  font-size: 13px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.heroTextCnt > p {
+  font-size: 16.5px;
+  font-weight: 500;
+}
+.heroTextCnt > h1 {
+  font-size: 100px;
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  bottom: 20px;
+  letter-spacing: -2px;
+}
+#txt1 {
+  position: relative;
+  bottom: 30px;
+}
+#txt2 {
+  position: relative;
+  bottom: 45px;
+}
+.heroTextCnt > button {
+  position: relative;
+  bottom: 40px;
+  font-size: 17px;
+  border: 1px solid transparent;
+  padding: 7px 15px;
+  transition: opacity 200ms;
+}
+.heroTextCnt > button:hover {
+  opacity: 0.7;
+}
+.heroA {
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 768px) {
+  .heroTextCnt > h1 {
+    font-size: 50px;
+  }
+}
+.featured > h2 {
+  letter-spacing: -1px;
+}
+@media (max-width: 768px) {
+  .card-img {
+    height: 400px !important;
+  }
+}
+
+.classicSpotlight {
+  margin-top: 100px;
+}
+.classicSpotlight > h2 {
+  letter-spacing: -1px;
+}
+.shoes {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 1rem;
+  scrollbar-width:thin;
+  scrollbar-color: gray white;
+}
+.shoes img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .shoes img {
+    width: 300px;
+    height: 300px;
+  }
+  .shoes {
+    scrollbar-width: none;
+  }
+}
+
+.trending > h2 {
+  letter-spacing: -1px;
+}
+.trendingTextCnt > p {
+  font-size: 16.5px;
+  font-weight: 500;
+}
+.trendingTextCnt > h1 {
+  font-size: 100px;
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  bottom: 20px;
+  letter-spacing: -2px;
+}
+#txt1 {
+  position: relative;
+  bottom: 30px;
+}
+.trendingTextCnt > button {
+  position: relative;
+  bottom: 20px;
+  font-size: 17px;
+  border: 1px solid transparent;
+  padding: 7px 15px;
+  transition: opacity 200ms;
+}
+.trendingTextCnt > button:hover {
+  opacity: 0.7;
+}
+.trendingA {
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 768px) {
+  .trendingTextCnt > h1 {
+    font-size: 50px;
+  }
+}
+
+.shopBSport > h2 {
+  letter-spacing: -1px;
+}
+.sports {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 1rem;
+  scrollbar-width:thin;
+  scrollbar-color: gray white;
+}
+.sports img {
+  width: 600px;
+  height: 350px;
+  object-fit: cover;
+}
+.sportCard {
+  position: relative;
+  display: inline-block;
+}
+.overlay-btn {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  font-size: 15px;
+}
+@media (max-width: 768px) {
+  .sports img {
+    width: 300px;
+    height: 300px;
+  }
+  .sports{
+    scrollbar-width: none;
+  }
+}
+
+.memberBenefits {
+  margin-top: 80px;
+}
+.benefits {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 1rem;
+  scrollbar-width:thin;
+  scrollbar-color: gray white;
+}
+.benefits .card img {
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .benefits .card {
+    width: 250px;
+  }
+  .benefits{
+    scrollbar-width: none;
+  }
+}
+
+.pdct>li{
+  font-size: 18px;
+  font-weight: 500;
+  color: gray;
+}
+.pdct>li:hover{
+  color: black;
+  cursor: pointer;
+}
+
+.footer>h6{
+  font-weight: 500;
+}
+.ftr>li{
+  font-weight: 400;
+  color: gray;
+}
