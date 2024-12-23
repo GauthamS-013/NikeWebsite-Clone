@@ -311,4 +311,12 @@
 .ftr>li{
   font-weight: 400;
   color: gray;
+  cursor: pointer;
+}
+
+.cr{
+  cursor: pointer;
+}
+.cr:hover{
+  color: black;
 }
